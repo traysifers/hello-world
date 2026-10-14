@@ -1,0 +1,2940 @@
+{
+  "_about": "Therapeutic-class alternatives for non-formulary pharmacy messages. Edit freely. Tiers are approximate adult/adolescent dose tiers (GINA/NAEPP style) or potency classes; always confirm against the current plan formulary. Not a substitute for clinical judgment.",
+  "classes": {
+    "saba": {
+      "name": "SABA (short-acting beta-agonist) rescue inhaler",
+      "indication": "asthma/COPD rescue",
+      "related": [
+        "saba-neb"
+      ],
+      "agents": [
+        {
+          "generic": "albuterol HFA",
+          "brands": [
+            "ProAir HFA",
+            "Ventolin HFA",
+            "Proventil HFA"
+          ],
+          "aliases": [
+            "albuterol",
+            "proair",
+            "ventolin",
+            "proventil",
+            "salbutamol"
+          ],
+          "generic_available": true,
+          "device": "MDI",
+          "frequency": "90 mcg/puff, 1-2 puffs q4-6h PRN",
+          "note": "reference standard; generic albuterol HFA widely preferred"
+        },
+        {
+          "generic": "albuterol breath-actuated",
+          "brands": [
+            "ProAir RespiClick",
+            "ProAir Digihaler"
+          ],
+          "aliases": [
+            "respiclick",
+            "digihaler"
+          ],
+          "generic_available": false,
+          "device": "breath-actuated DPI",
+          "frequency": "90 mcg/inh, 1-2 inh q4-6h PRN",
+          "note": "no spacer needed; same dose as albuterol HFA"
+        },
+        {
+          "generic": "levalbuterol HFA",
+          "brands": [
+            "Xopenex HFA"
+          ],
+          "aliases": [
+            "levalbuterol",
+            "xopenex"
+          ],
+          "generic_available": true,
+          "device": "MDI",
+          "frequency": "45 mcg/puff, 1-2 puffs q4-6h PRN",
+          "note": "R-enantiomer; 45 mcg ~ albuterol 90 mcg; fewer tremor/tachycardia complaints in some patients"
+        },
+        {
+          "generic": "albuterol/budesonide",
+          "brands": [
+            "Airsupra"
+          ],
+          "aliases": [
+            "airsupra"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "90/80 mcg per puff, 2 puffs PRN (max 12 puffs/day)",
+          "note": "anti-inflammatory reliever for asthma >=18 yo; not for COPD-only rescue"
+        }
+      ]
+    },
+    "saba-neb": {
+      "name": "Nebulized short-acting bronchodilator",
+      "indication": "asthma/COPD rescue via nebulizer",
+      "related": [
+        "saba"
+      ],
+      "agents": [
+        {
+          "generic": "albuterol nebulizer solution",
+          "brands": [
+            "AccuNeb",
+            "generic"
+          ],
+          "aliases": [
+            "albuterol neb",
+            "albuterol nebulizer",
+            "albuterol solution",
+            "accuneb"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "2.5 mg/3 mL (0.083%) q4-6h PRN; also 0.63 and 1.25 mg/3 mL and 0.5% concentrate",
+          "note": "reference standard"
+        },
+        {
+          "generic": "levalbuterol nebulizer solution",
+          "brands": [
+            "Xopenex"
+          ],
+          "aliases": [
+            "levalbuterol neb",
+            "xopenex neb",
+            "xopenex solution"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "0.31, 0.63 or 1.25 mg/3 mL q6-8h PRN",
+          "note": "0.63 mg ~ albuterol 1.25 mg; 1.25 mg ~ albuterol 2.5 mg"
+        },
+        {
+          "generic": "ipratropium/albuterol nebulizer solution",
+          "brands": [
+            "DuoNeb",
+            "generic"
+          ],
+          "aliases": [
+            "duoneb",
+            "ipratropium albuterol",
+            "ipratropium/albuterol"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "0.5 mg/2.5 mg per 3 mL QID",
+          "note": "SAMA + SABA; mainly COPD or acute exacerbation"
+        },
+        {
+          "generic": "ipratropium nebulizer solution",
+          "brands": [
+            "Atrovent",
+            "generic"
+          ],
+          "aliases": [
+            "ipratropium neb",
+            "atrovent neb",
+            "ipratropium solution"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "500 mcg/2.5 mL (0.02%) TID-QID",
+          "note": "SAMA; adjunct, not a stand-alone rescue for asthma"
+        }
+      ]
+    },
+    "ics": {
+      "name": "ICS (inhaled corticosteroid) controller",
+      "indication": "asthma controller (monotherapy step 2)",
+      "related": [
+        "ics-laba"
+      ],
+      "tiers": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tier_label": "ICS dose tier",
+      "agents": [
+        {
+          "generic": "fluticasone propionate HFA",
+          "brands": [
+            "Flovent HFA"
+          ],
+          "aliases": [
+            "flovent hfa",
+            "flovent"
+          ],
+          "generic_available": true,
+          "device": "MDI",
+          "frequency": "2 puffs BID",
+          "strengths": {
+            "44 mcg": "low",
+            "110 mcg": "medium",
+            "220 mcg": "high"
+          },
+          "note": "brand Flovent discontinued 2024; authorized generic fluticasone propionate HFA remains"
+        },
+        {
+          "generic": "fluticasone propionate DPI",
+          "brands": [
+            "Flovent Diskus"
+          ],
+          "aliases": [
+            "flovent diskus"
+          ],
+          "generic_available": true,
+          "device": "DPI",
+          "frequency": "1 inhalation BID",
+          "strengths": {
+            "50 mcg": "low",
+            "100 mcg": "medium",
+            "250 mcg": "high"
+          },
+          "note": "authorized generic available"
+        },
+        {
+          "generic": "fluticasone propionate breath-actuated",
+          "brands": [
+            "ArmonAir Digihaler",
+            "ArmonAir RespiClick"
+          ],
+          "aliases": [
+            "armonair"
+          ],
+          "generic_available": false,
+          "device": "breath-actuated DPI",
+          "frequency": "1 inhalation BID",
+          "strengths": {
+            "55 mcg": "low",
+            "113 mcg": "medium",
+            "232 mcg": "high"
+          },
+          "note": "matches Flovent HFA 44/110/220 by tier"
+        },
+        {
+          "generic": "fluticasone furoate",
+          "brands": [
+            "Arnuity Ellipta"
+          ],
+          "aliases": [
+            "arnuity"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "1 inhalation once daily",
+          "strengths": {
+            "50 mcg": "low",
+            "100 mcg": "medium",
+            "200 mcg": "high"
+          },
+          "note": "once daily; FF 100 ~ FP 250/day"
+        },
+        {
+          "generic": "budesonide DPI",
+          "brands": [
+            "Pulmicort Flexhaler"
+          ],
+          "aliases": [
+            "pulmicort flexhaler",
+            "flexhaler",
+            "pulmicort"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "90 mcg 1-2 inh BID (low) / 180 mcg 1 inh BID (low) or 2 inh BID (medium)",
+          "strengths": {
+            "90 mcg": "low",
+            "180 mcg": "medium"
+          },
+          "note": "budesonide 400 mcg/day ~ FP 250 mcg/day; high dose = >720 mcg/day"
+        },
+        {
+          "generic": "budesonide nebulizer suspension",
+          "brands": [
+            "Pulmicort Respules"
+          ],
+          "aliases": [
+            "pulmicort respules",
+            "respules",
+            "budesonide neb",
+            "budesonide nebulizer",
+            "budesonide suspension"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "once daily or divided BID",
+          "strengths": {
+            "0.25 mg": "low",
+            "0.5 mg": "medium",
+            "1 mg": "high"
+          },
+          "note": "pediatric tiers; only nebulized ICS in the US"
+        },
+        {
+          "generic": "beclomethasone HFA",
+          "brands": [
+            "Qvar RediHaler"
+          ],
+          "aliases": [
+            "qvar"
+          ],
+          "generic_available": false,
+          "device": "breath-actuated MDI",
+          "frequency": "1-2 puffs BID",
+          "strengths": {
+            "40 mcg": "low",
+            "80 mcg": "medium"
+          },
+          "note": "extra-fine particle; BDP 200 mcg/day ~ FP 250 mcg/day; high dose = 80 mcg 4 puffs BID"
+        },
+        {
+          "generic": "mometasone HFA",
+          "brands": [
+            "Asmanex HFA"
+          ],
+          "aliases": [
+            "asmanex hfa"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "2 puffs BID",
+          "strengths": {
+            "50 mcg": "low",
+            "100 mcg": "medium",
+            "200 mcg": "high"
+          },
+          "note": "mometasone 220 mcg/day ~ FP 250 mcg/day"
+        },
+        {
+          "generic": "mometasone DPI",
+          "brands": [
+            "Asmanex Twisthaler"
+          ],
+          "aliases": [
+            "asmanex twisthaler",
+            "twisthaler",
+            "asmanex"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "1 inhalation once daily (BID for higher doses)",
+          "strengths": {
+            "110 mcg": "low",
+            "220 mcg": "medium"
+          },
+          "note": "220 mcg BID = high"
+        },
+        {
+          "generic": "ciclesonide HFA",
+          "brands": [
+            "Alvesco"
+          ],
+          "aliases": [
+            "alvesco",
+            "ciclesonide inhaler"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "1 puff BID",
+          "strengths": {
+            "80 mcg": "low",
+            "160 mcg": "medium"
+          },
+          "note": "prodrug, low oral deposition; 160 mcg 2 puffs BID = high"
+        }
+      ]
+    },
+    "ics-laba": {
+      "name": "ICS/LABA combination inhaler",
+      "indication": "asthma controller (step 3+); also COPD",
+      "related": [
+        "ics",
+        "triple"
+      ],
+      "tiers": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "tier_label": "ICS dose tier",
+      "agents": [
+        {
+          "generic": "fluticasone propionate/salmeterol DPI",
+          "brands": [
+            "Advair Diskus",
+            "Wixela Inhub"
+          ],
+          "aliases": [
+            "advair diskus",
+            "advair",
+            "wixela",
+            "fluticasone salmeterol",
+            "fluticasone/salmeterol"
+          ],
+          "generic_available": true,
+          "device": "DPI",
+          "frequency": "1 inhalation BID",
+          "strengths": {
+            "100/50 mcg": "low",
+            "250/50 mcg": "medium",
+            "500/50 mcg": "high"
+          },
+          "note": "reference combination; Wixela and other generics usually preferred over brand"
+        },
+        {
+          "generic": "fluticasone propionate/salmeterol HFA",
+          "brands": [
+            "Advair HFA"
+          ],
+          "aliases": [
+            "advair hfa"
+          ],
+          "generic_available": true,
+          "device": "MDI",
+          "frequency": "2 puffs BID",
+          "strengths": {
+            "45/21 mcg": "low",
+            "115/21 mcg": "medium",
+            "230/21 mcg": "high"
+          },
+          "note": "spacer-compatible MDI version of Advair"
+        },
+        {
+          "generic": "fluticasone propionate/salmeterol breath-actuated",
+          "brands": [
+            "AirDuo RespiClick",
+            "AirDuo Digihaler"
+          ],
+          "aliases": [
+            "airduo"
+          ],
+          "generic_available": true,
+          "device": "breath-actuated DPI",
+          "frequency": "1 inhalation BID",
+          "strengths": {
+            "55/14 mcg": "low",
+            "113/14 mcg": "medium",
+            "232/14 mcg": "high"
+          },
+          "note": "lower salmeterol dose but equivalent by ICS tier; authorized generic available"
+        },
+        {
+          "generic": "fluticasone furoate/vilanterol",
+          "brands": [
+            "Breo Ellipta"
+          ],
+          "aliases": [
+            "breo"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "1 inhalation once daily",
+          "strengths": {
+            "100/25 mcg": "medium",
+            "200/25 mcg": "high"
+          },
+          "note": "once daily; 100/25 covers low-to-medium tier (FF 100 ~ FP 250)"
+        },
+        {
+          "generic": "budesonide/formoterol",
+          "brands": [
+            "Symbicort",
+            "Breyna"
+          ],
+          "aliases": [
+            "symbicort",
+            "breyna",
+            "budesonide formoterol",
+            "budesonide/formoterol"
+          ],
+          "generic_available": true,
+          "device": "MDI",
+          "frequency": "2 puffs BID",
+          "strengths": {
+            "80/4.5 mcg": "low",
+            "160/4.5 mcg": "medium"
+          },
+          "note": "only ICS/LABA usable as both maintenance and reliever (SMART) at 160/4.5; no US high-dose strength; generic Breyna available"
+        },
+        {
+          "generic": "mometasone/formoterol",
+          "brands": [
+            "Dulera"
+          ],
+          "aliases": [
+            "dulera",
+            "mometasone formoterol",
+            "mometasone/formoterol"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "2 puffs BID",
+          "strengths": {
+            "50/5 mcg": "low",
+            "100/5 mcg": "medium",
+            "200/5 mcg": "high"
+          },
+          "note": "tiers line up with Symbicort 80/160 and Advair 100/250/500"
+        }
+      ]
+    },
+    "lama": {
+      "name": "LAMA (long-acting muscarinic antagonist)",
+      "indication": "COPD maintenance; severe asthma add-on (tiotropium Respimat only)",
+      "related": [
+        "lama-laba",
+        "triple"
+      ],
+      "agents": [
+        {
+          "generic": "tiotropium soft-mist",
+          "brands": [
+            "Spiriva Respimat"
+          ],
+          "aliases": [
+            "spiriva respimat",
+            "spiriva",
+            "tiotropium"
+          ],
+          "generic_available": false,
+          "device": "soft-mist inhaler",
+          "frequency": "1.25 mcg x2 puffs daily (asthma) or 2.5 mcg x2 puffs daily (COPD)",
+          "note": "only LAMA FDA-approved for asthma add-on (>=6 yo)"
+        },
+        {
+          "generic": "tiotropium DPI",
+          "brands": [
+            "Spiriva HandiHaler"
+          ],
+          "aliases": [
+            "handihaler",
+            "spiriva handihaler"
+          ],
+          "generic_available": true,
+          "device": "DPI capsule",
+          "frequency": "18 mcg once daily",
+          "note": "COPD only; generic tiotropium capsules available"
+        },
+        {
+          "generic": "umeclidinium",
+          "brands": [
+            "Incruse Ellipta"
+          ],
+          "aliases": [
+            "incruse",
+            "umeclidinium"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "62.5 mcg once daily",
+          "note": "COPD only"
+        },
+        {
+          "generic": "aclidinium",
+          "brands": [
+            "Tudorza Pressair"
+          ],
+          "aliases": [
+            "tudorza",
+            "aclidinium"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "400 mcg BID",
+          "note": "COPD only; twice daily"
+        },
+        {
+          "generic": "glycopyrrolate inhaled",
+          "brands": [
+            "Lonhala Magnair",
+            "Seebri Neohaler"
+          ],
+          "aliases": [
+            "lonhala",
+            "seebri",
+            "glycopyrrolate inhaled"
+          ],
+          "generic_available": false,
+          "device": "nebulizer (Lonhala) / DPI (Seebri)",
+          "frequency": "25 mcg BID neb or 15.6 mcg BID DPI",
+          "note": "COPD only"
+        },
+        {
+          "generic": "revefenacin",
+          "brands": [
+            "Yupelri"
+          ],
+          "aliases": [
+            "yupelri",
+            "revefenacin"
+          ],
+          "generic_available": false,
+          "device": "nebulizer",
+          "frequency": "175 mcg once daily",
+          "note": "COPD only; once-daily nebulized LAMA"
+        }
+      ]
+    },
+    "lama-laba": {
+      "name": "LAMA/LABA dual bronchodilator",
+      "indication": "COPD maintenance",
+      "related": [
+        "lama",
+        "triple"
+      ],
+      "agents": [
+        {
+          "generic": "umeclidinium/vilanterol",
+          "brands": [
+            "Anoro Ellipta"
+          ],
+          "aliases": [
+            "anoro"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "62.5/25 mcg once daily",
+          "note": "once daily"
+        },
+        {
+          "generic": "tiotropium/olodaterol",
+          "brands": [
+            "Stiolto Respimat"
+          ],
+          "aliases": [
+            "stiolto"
+          ],
+          "generic_available": false,
+          "device": "soft-mist inhaler",
+          "frequency": "2.5/2.5 mcg x2 puffs once daily",
+          "note": "once daily"
+        },
+        {
+          "generic": "glycopyrrolate/formoterol",
+          "brands": [
+            "Bevespi Aerosphere"
+          ],
+          "aliases": [
+            "bevespi"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "9/4.8 mcg x2 puffs BID",
+          "note": "twice daily MDI"
+        },
+        {
+          "generic": "glycopyrrolate/indacaterol",
+          "brands": [
+            "Utibron Neohaler"
+          ],
+          "aliases": [
+            "utibron"
+          ],
+          "generic_available": false,
+          "device": "DPI capsule",
+          "frequency": "15.6/27.5 mcg BID",
+          "note": "twice daily"
+        },
+        {
+          "generic": "aclidinium/formoterol",
+          "brands": [
+            "Duaklir Pressair"
+          ],
+          "aliases": [
+            "duaklir"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "400/12 mcg BID",
+          "note": "twice daily"
+        }
+      ]
+    },
+    "triple": {
+      "name": "ICS/LABA/LAMA triple inhaler",
+      "indication": "COPD; severe asthma (Trelegy)",
+      "related": [
+        "ics-laba",
+        "lama"
+      ],
+      "agents": [
+        {
+          "generic": "fluticasone furoate/umeclidinium/vilanterol",
+          "brands": [
+            "Trelegy Ellipta"
+          ],
+          "aliases": [
+            "trelegy"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "100/62.5/25 mcg (COPD or asthma) or 200/62.5/25 mcg (asthma) once daily",
+          "note": "only triple FDA-approved for asthma"
+        },
+        {
+          "generic": "budesonide/glycopyrrolate/formoterol",
+          "brands": [
+            "Breztri Aerosphere"
+          ],
+          "aliases": [
+            "breztri"
+          ],
+          "generic_available": false,
+          "device": "MDI",
+          "frequency": "160/9/4.8 mcg x2 puffs BID",
+          "note": "COPD only; twice daily MDI"
+        }
+      ]
+    },
+    "laba": {
+      "name": "LABA monotherapy",
+      "indication": "COPD add-on (never alone in asthma)",
+      "related": [
+        "ics-laba",
+        "lama-laba"
+      ],
+      "agents": [
+        {
+          "generic": "salmeterol",
+          "brands": [
+            "Serevent Diskus"
+          ],
+          "aliases": [
+            "serevent",
+            "salmeterol"
+          ],
+          "generic_available": false,
+          "device": "DPI",
+          "frequency": "50 mcg BID",
+          "note": "boxed warning: not for asthma without ICS"
+        },
+        {
+          "generic": "formoterol nebulizer",
+          "brands": [
+            "Perforomist"
+          ],
+          "aliases": [
+            "perforomist",
+            "formoterol neb"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "20 mcg/2 mL BID",
+          "note": "COPD"
+        },
+        {
+          "generic": "arformoterol nebulizer",
+          "brands": [
+            "Brovana"
+          ],
+          "aliases": [
+            "brovana",
+            "arformoterol"
+          ],
+          "generic_available": true,
+          "device": "nebulizer",
+          "frequency": "15 mcg/2 mL BID",
+          "note": "COPD"
+        },
+        {
+          "generic": "indacaterol",
+          "brands": [
+            "Arcapta Neohaler"
+          ],
+          "aliases": [
+            "arcapta",
+            "indacaterol"
+          ],
+          "generic_available": false,
+          "device": "DPI capsule",
+          "frequency": "75 mcg once daily",
+          "note": "COPD"
+        },
+        {
+          "generic": "olodaterol",
+          "brands": [
+            "Striverdi Respimat"
+          ],
+          "aliases": [
+            "striverdi",
+            "olodaterol"
+          ],
+          "generic_available": false,
+          "device": "soft-mist inhaler",
+          "frequency": "2.5 mcg x2 puffs once daily",
+          "note": "COPD"
+        }
+      ]
+    },
+    "ltra": {
+      "name": "Leukotriene modifier",
+      "indication": "asthma add-on; allergic rhinitis (montelukast)",
+      "related": [
+        "ics"
+      ],
+      "agents": [
+        {
+          "generic": "montelukast",
+          "brands": [
+            "Singulair"
+          ],
+          "aliases": [
+            "singulair",
+            "montelukast"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "4 mg granules/chewable (12 mo-5 yo), 5 mg chewable (6-14 yo), 10 mg tablet (>=15 yo) once daily at bedtime",
+          "note": "boxed warning for neuropsychiatric events; generic nearly always preferred"
+        },
+        {
+          "generic": "zafirlukast",
+          "brands": [
+            "Accolate"
+          ],
+          "aliases": [
+            "accolate",
+            "zafirlukast"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "10 mg BID (5-11 yo) or 20 mg BID (>=12 yo), empty stomach",
+          "note": "asthma only; monitor LFTs; interacts with warfarin"
+        },
+        {
+          "generic": "zileuton",
+          "brands": [
+            "Zyflo",
+            "Zyflo CR"
+          ],
+          "aliases": [
+            "zyflo",
+            "zileuton"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "600 mg QID or 1200 mg CR BID (>=12 yo)",
+          "note": "5-LO inhibitor; LFT monitoring required; rarely covered without PA"
+        }
+      ]
+    },
+    "incs": {
+      "name": "Intranasal corticosteroid",
+      "indication": "allergic/nonallergic rhinitis; nasal polyps",
+      "related": [
+        "incs-inah",
+        "inah"
+      ],
+      "agents": [
+        {
+          "generic": "fluticasone propionate nasal",
+          "brands": [
+            "Flonase",
+            "Flonase Allergy Relief"
+          ],
+          "aliases": [
+            "flonase",
+            "fluticasone nasal",
+            "fluticasone propionate nasal spray"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "nasal spray",
+          "frequency": "50 mcg/spray, 1-2 sprays each nostril once daily (>=4 yo)",
+          "note": "reference INCS"
+        },
+        {
+          "generic": "fluticasone furoate nasal",
+          "brands": [
+            "Flonase Sensimist",
+            "Veramyst"
+          ],
+          "aliases": [
+            "sensimist",
+            "veramyst",
+            "fluticasone furoate nasal"
+          ],
+          "generic_available": false,
+          "otc": true,
+          "device": "nasal spray (scent-free, low-volume)",
+          "frequency": "27.5 mcg/spray, 1-2 sprays each nostril once daily (>=2 yo)",
+          "note": "approved down to 2 yo"
+        },
+        {
+          "generic": "mometasone nasal",
+          "brands": [
+            "Nasonex",
+            "Nasonex 24HR Allergy"
+          ],
+          "aliases": [
+            "nasonex",
+            "mometasone nasal"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "nasal spray",
+          "frequency": "50 mcg/spray, 2 sprays each nostril once daily (>=2 yo: 1 spray)",
+          "note": "also approved for nasal polyps"
+        },
+        {
+          "generic": "triamcinolone nasal",
+          "brands": [
+            "Nasacort Allergy 24HR"
+          ],
+          "aliases": [
+            "nasacort",
+            "triamcinolone nasal"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "nasal spray (scent-free)",
+          "frequency": "55 mcg/spray, 2 sprays each nostril once daily (>=2 yo: 1 spray)",
+          "note": ""
+        },
+        {
+          "generic": "budesonide nasal",
+          "brands": [
+            "Rhinocort Allergy",
+            "Rhinocort Aqua"
+          ],
+          "aliases": [
+            "rhinocort",
+            "budesonide nasal"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "nasal spray",
+          "frequency": "32 mcg/spray, 1-2 sprays each nostril once daily (>=6 yo)",
+          "note": "pregnancy category B historically"
+        },
+        {
+          "generic": "beclomethasone nasal HFA",
+          "brands": [
+            "Qnasl"
+          ],
+          "aliases": [
+            "qnasl"
+          ],
+          "generic_available": false,
+          "device": "dry nasal aerosol",
+          "frequency": "80 mcg/spray, 2 sprays each nostril once daily (>=12 yo); 40 mcg for 4-11 yo",
+          "note": "dry aerosol for patients who dislike drip"
+        },
+        {
+          "generic": "beclomethasone nasal aqueous",
+          "brands": [
+            "Beconase AQ"
+          ],
+          "aliases": [
+            "beconase"
+          ],
+          "generic_available": false,
+          "device": "nasal spray",
+          "frequency": "42 mcg/spray, 1-2 sprays each nostril BID (>=6 yo)",
+          "note": "twice daily"
+        },
+        {
+          "generic": "ciclesonide nasal aqueous",
+          "brands": [
+            "Omnaris"
+          ],
+          "aliases": [
+            "omnaris"
+          ],
+          "generic_available": false,
+          "device": "nasal spray",
+          "frequency": "50 mcg/spray, 2 sprays each nostril once daily (>=6 yo)",
+          "note": ""
+        },
+        {
+          "generic": "ciclesonide nasal HFA",
+          "brands": [
+            "Zetonna"
+          ],
+          "aliases": [
+            "zetonna"
+          ],
+          "generic_available": false,
+          "device": "dry nasal aerosol",
+          "frequency": "37 mcg/spray, 1 spray each nostril once daily (>=12 yo)",
+          "note": "dry aerosol"
+        },
+        {
+          "generic": "flunisolide nasal",
+          "brands": [
+            "generic (formerly Nasarel)"
+          ],
+          "aliases": [
+            "flunisolide",
+            "nasarel"
+          ],
+          "generic_available": true,
+          "device": "nasal spray",
+          "frequency": "25 mcg/spray, 2 sprays each nostril BID-TID (>=6 yo)",
+          "note": "multiple daily doses"
+        },
+        {
+          "generic": "fluticasone propionate exhalation delivery",
+          "brands": [
+            "Xhance"
+          ],
+          "aliases": [
+            "xhance"
+          ],
+          "generic_available": false,
+          "device": "exhalation delivery system",
+          "frequency": "93 mcg/spray, 1-2 sprays each nostril BID (>=18 yo)",
+          "note": "for nasal polyps / chronic rhinosinusitis; PA almost always required"
+        }
+      ]
+    },
+    "inah": {
+      "name": "Intranasal antihistamine",
+      "indication": "allergic/nonallergic (vasomotor) rhinitis",
+      "related": [
+        "incs-inah",
+        "incs"
+      ],
+      "agents": [
+        {
+          "generic": "azelastine 0.1% nasal",
+          "brands": [
+            "Astelin",
+            "generic"
+          ],
+          "aliases": [
+            "astelin",
+            "azelastine nasal",
+            "azelastine 0.1"
+          ],
+          "generic_available": true,
+          "device": "nasal spray",
+          "frequency": "137 mcg/spray, 1-2 sprays each nostril BID (>=5 yo)",
+          "note": "bitter taste"
+        },
+        {
+          "generic": "azelastine 0.15% nasal",
+          "brands": [
+            "Astepro",
+            "Astepro Allergy"
+          ],
+          "aliases": [
+            "astepro",
+            "azelastine 0.15"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "nasal spray",
+          "frequency": "205.5 mcg/spray, 1-2 sprays each nostril once or twice daily (>=6 yo)",
+          "note": "also Rx generic"
+        },
+        {
+          "generic": "olopatadine nasal",
+          "brands": [
+            "Patanase"
+          ],
+          "aliases": [
+            "patanase",
+            "olopatadine nasal"
+          ],
+          "generic_available": true,
+          "device": "nasal spray",
+          "frequency": "665 mcg/spray, 2 sprays each nostril BID (>=12 yo); 1 spray BID for 6-11 yo",
+          "note": "less bitter than azelastine"
+        }
+      ]
+    },
+    "incs-inah": {
+      "name": "Intranasal corticosteroid + antihistamine combination",
+      "indication": "moderate-severe allergic rhinitis",
+      "related": [
+        "incs",
+        "inah"
+      ],
+      "agents": [
+        {
+          "generic": "azelastine/fluticasone propionate nasal",
+          "brands": [
+            "Dymista"
+          ],
+          "aliases": [
+            "dymista",
+            "azelastine fluticasone",
+            "azelastine/fluticasone"
+          ],
+          "generic_available": true,
+          "device": "nasal spray",
+          "frequency": "137/50 mcg per spray, 1 spray each nostril BID (>=6 yo)",
+          "note": "if combo not covered, two separate generic sprays (azelastine + fluticasone) are the usual fallback"
+        },
+        {
+          "generic": "olopatadine/mometasone nasal",
+          "brands": [
+            "Ryaltris"
+          ],
+          "aliases": [
+            "ryaltris",
+            "olopatadine mometasone",
+            "olopatadine/mometasone"
+          ],
+          "generic_available": false,
+          "device": "nasal spray",
+          "frequency": "665/25 mcg per spray, 2 sprays each nostril BID (>=12 yo)",
+          "note": "fallback is separate olopatadine + mometasone generics"
+        }
+      ]
+    },
+    "nasal-anticholinergic": {
+      "name": "Intranasal anticholinergic",
+      "indication": "rhinorrhea (vasomotor rhinitis, common cold)",
+      "related": [
+        "inah",
+        "incs"
+      ],
+      "agents": [
+        {
+          "generic": "ipratropium nasal",
+          "brands": [
+            "Atrovent Nasal"
+          ],
+          "aliases": [
+            "atrovent nasal",
+            "ipratropium nasal"
+          ],
+          "generic_available": true,
+          "device": "nasal spray",
+          "frequency": "0.03% 2 sprays each nostril BID-TID (rhinitis); 0.06% 2 sprays each nostril TID-QID x 3 weeks (cold)",
+          "note": "only agent in class; if not covered, request the other strength or a PA"
+        }
+      ]
+    },
+    "oral-antihistamine": {
+      "name": "Oral second-generation antihistamine",
+      "indication": "allergic rhinitis, urticaria, pruritus",
+      "related": [
+        "h2-blocker",
+        "inah"
+      ],
+      "agents": [
+        {
+          "generic": "cetirizine",
+          "brands": [
+            "Zyrtec"
+          ],
+          "aliases": [
+            "zyrtec",
+            "cetirizine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "2.5-5 mg (6 mo-5 yo), 5-10 mg (>=6 yo) once daily; syrup 1 mg/mL, chewable, tablet",
+          "note": "most sedating of the second-generation agents"
+        },
+        {
+          "generic": "levocetirizine",
+          "brands": [
+            "Xyzal"
+          ],
+          "aliases": [
+            "xyzal",
+            "levocetirizine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "1.25 mg (6 mo-5 yo), 2.5 mg (6-11 yo), 5 mg (>=12 yo) once daily in the evening",
+          "note": "active enantiomer of cetirizine"
+        },
+        {
+          "generic": "loratadine",
+          "brands": [
+            "Claritin"
+          ],
+          "aliases": [
+            "claritin",
+            "loratadine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "5 mg (2-5 yo), 10 mg (>=6 yo) once daily; syrup, chewable, ODT, tablet",
+          "note": "least sedating"
+        },
+        {
+          "generic": "desloratadine",
+          "brands": [
+            "Clarinex"
+          ],
+          "aliases": [
+            "clarinex",
+            "desloratadine"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "1 mg (6-11 mo), 1.25 mg (1-5 yo), 2.5 mg (6-11 yo), 5 mg (>=12 yo) once daily",
+          "note": "active metabolite of loratadine"
+        },
+        {
+          "generic": "fexofenadine",
+          "brands": [
+            "Allegra"
+          ],
+          "aliases": [
+            "allegra",
+            "fexofenadine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "15 mg BID (6 mo-2 yo), 30 mg BID (2-11 yo), 60 mg BID or 180 mg daily (>=12 yo); avoid fruit juice",
+          "note": "nonsedating"
+        },
+        {
+          "generic": "hydroxyzine",
+          "brands": [
+            "Atarax",
+            "Vistaril"
+          ],
+          "aliases": [
+            "hydroxyzine",
+            "atarax",
+            "vistaril"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "10-25 mg TID-QID PRN or at bedtime; 2 mg/kg/day divided (peds)",
+          "note": "first-generation, sedating; useful as bedtime add-on for urticaria/pruritus"
+        },
+        {
+          "generic": "cyproheptadine",
+          "brands": [
+            "Periactin"
+          ],
+          "aliases": [
+            "cyproheptadine",
+            "periactin"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "4 mg TID (adult); 0.25 mg/kg/day divided (peds)",
+          "note": "first-generation; appetite stimulation; cold urticaria"
+        }
+      ]
+    },
+    "h2-blocker": {
+      "name": "H2 antihistamine (urticaria add-on / reflux)",
+      "indication": "chronic urticaria add-on; GERD",
+      "related": [
+        "oral-antihistamine",
+        "ppi"
+      ],
+      "agents": [
+        {
+          "generic": "famotidine",
+          "brands": [
+            "Pepcid"
+          ],
+          "aliases": [
+            "pepcid",
+            "famotidine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "20-40 mg BID (adult); 0.5 mg/kg/dose BID (peds); suspension 40 mg/5 mL",
+          "note": "preferred H2 blocker"
+        },
+        {
+          "generic": "cimetidine",
+          "brands": [
+            "Tagamet"
+          ],
+          "aliases": [
+            "tagamet",
+            "cimetidine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral",
+          "frequency": "400 mg BID or 800 mg at bedtime (adult)",
+          "note": "many CYP interactions"
+        },
+        {
+          "generic": "nizatidine",
+          "brands": [
+            "Axid"
+          ],
+          "aliases": [
+            "axid",
+            "nizatidine"
+          ],
+          "generic_available": true,
+          "device": "oral",
+          "frequency": "150 mg BID (adult)",
+          "note": "limited supply"
+        }
+      ]
+    },
+    "ophthalmic-allergy": {
+      "name": "Ophthalmic antihistamine / mast-cell stabilizer",
+      "indication": "allergic conjunctivitis",
+      "related": [
+        "oral-antihistamine"
+      ],
+      "agents": [
+        {
+          "generic": "olopatadine 0.1% ophthalmic",
+          "brands": [
+            "Patanol"
+          ],
+          "aliases": [
+            "patanol",
+            "olopatadine 0.1",
+            "olopatadine ophthalmic",
+            "olopatadine eye"
+          ],
+          "generic_available": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID (>=3 yo)",
+          "note": ""
+        },
+        {
+          "generic": "olopatadine 0.2% ophthalmic",
+          "brands": [
+            "Pataday Once Daily Relief"
+          ],
+          "aliases": [
+            "pataday",
+            "olopatadine 0.2"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye once daily (>=2 yo)",
+          "note": ""
+        },
+        {
+          "generic": "olopatadine 0.7% ophthalmic",
+          "brands": [
+            "Pataday Extra Strength",
+            "Pazeo"
+          ],
+          "aliases": [
+            "pazeo",
+            "pataday extra strength",
+            "olopatadine 0.7"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye once daily (>=2 yo)",
+          "note": "highest-strength olopatadine"
+        },
+        {
+          "generic": "ketotifen 0.025% ophthalmic",
+          "brands": [
+            "Zaditor",
+            "Alaway"
+          ],
+          "aliases": [
+            "zaditor",
+            "alaway",
+            "ketotifen"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID q8-12h (>=3 yo)",
+          "note": "inexpensive"
+        },
+        {
+          "generic": "bepotastine 1.5% ophthalmic",
+          "brands": [
+            "Bepreve"
+          ],
+          "aliases": [
+            "bepreve",
+            "bepotastine"
+          ],
+          "generic_available": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID (>=2 yo)",
+          "note": ""
+        },
+        {
+          "generic": "alcaftadine 0.25% ophthalmic",
+          "brands": [
+            "Lastacaft"
+          ],
+          "aliases": [
+            "lastacaft",
+            "alcaftadine"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye once daily (>=2 yo)",
+          "note": ""
+        },
+        {
+          "generic": "epinastine 0.05% ophthalmic",
+          "brands": [
+            "Elestat"
+          ],
+          "aliases": [
+            "elestat",
+            "epinastine"
+          ],
+          "generic_available": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID (>=2 yo)",
+          "note": ""
+        },
+        {
+          "generic": "azelastine 0.05% ophthalmic",
+          "brands": [
+            "Optivar"
+          ],
+          "aliases": [
+            "optivar",
+            "azelastine ophthalmic",
+            "azelastine eye"
+          ],
+          "generic_available": true,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID (>=3 yo)",
+          "note": ""
+        },
+        {
+          "generic": "cetirizine 0.24% ophthalmic",
+          "brands": [
+            "Zerviate"
+          ],
+          "aliases": [
+            "zerviate",
+            "cetirizine ophthalmic",
+            "cetirizine eye"
+          ],
+          "generic_available": false,
+          "device": "eye drop",
+          "frequency": "1 drop each eye BID (>=2 yo)",
+          "note": "usually requires PA"
+        },
+        {
+          "generic": "cromolyn 4% ophthalmic",
+          "brands": [
+            "Crolom",
+            "Opticrom"
+          ],
+          "aliases": [
+            "cromolyn ophthalmic",
+            "cromolyn eye",
+            "crolom",
+            "opticrom"
+          ],
+          "generic_available": true,
+          "device": "eye drop",
+          "frequency": "1-2 drops each eye 4-6 times daily (>=4 yo)",
+          "note": "mast-cell stabilizer only; slow onset"
+        },
+        {
+          "generic": "lodoxamide 0.1% ophthalmic",
+          "brands": [
+            "Alomide"
+          ],
+          "aliases": [
+            "alomide",
+            "lodoxamide"
+          ],
+          "generic_available": false,
+          "device": "eye drop",
+          "frequency": "1-2 drops each eye QID (>=2 yo)",
+          "note": "mast-cell stabilizer; vernal keratoconjunctivitis"
+        },
+        {
+          "generic": "nedocromil 2% ophthalmic",
+          "brands": [
+            "Alocril"
+          ],
+          "aliases": [
+            "alocril",
+            "nedocromil"
+          ],
+          "generic_available": false,
+          "device": "eye drop",
+          "frequency": "1-2 drops each eye BID (>=3 yo)",
+          "note": "mast-cell stabilizer"
+        },
+        {
+          "generic": "loteprednol 0.2% ophthalmic",
+          "brands": [
+            "Alrex"
+          ],
+          "aliases": [
+            "alrex",
+            "loteprednol 0.2"
+          ],
+          "generic_available": false,
+          "device": "eye drop",
+          "frequency": "1 drop each eye QID, short course",
+          "note": "ester corticosteroid for severe flares; not a maintenance swap"
+        }
+      ]
+    },
+    "epinephrine": {
+      "name": "Epinephrine for anaphylaxis",
+      "indication": "anaphylaxis emergency treatment",
+      "related": [],
+      "tiers": [
+        "0.1 mg",
+        "0.15 mg",
+        "0.3 mg"
+      ],
+      "tier_label": "weight-based dose",
+      "tier_notes": {
+        "0.1 mg": "7.5 to <15 kg",
+        "0.15 mg": "15 to <30 kg",
+        "0.3 mg": ">=30 kg"
+      },
+      "agents": [
+        {
+          "generic": "epinephrine auto-injector",
+          "brands": [
+            "EpiPen",
+            "EpiPen Jr"
+          ],
+          "aliases": [
+            "epipen",
+            "epipen jr",
+            "epi pen"
+          ],
+          "generic_available": true,
+          "device": "auto-injector",
+          "frequency": "1 injection IM lateral thigh, repeat in 5-15 min if needed; dispense 2-pack",
+          "strengths": {
+            "0.3 mg": "0.3 mg",
+            "0.15 mg": "0.15 mg"
+          },
+          "note": "authorized generic (Mylan/Viatris epinephrine auto-injector) is the usual preferred swap"
+        },
+        {
+          "generic": "epinephrine auto-injector",
+          "brands": [
+            "Teva epinephrine auto-injector (generic EpiPen)"
+          ],
+          "aliases": [
+            "teva epinephrine",
+            "epinephrine auto-injector",
+            "epinephrine autoinjector",
+            "generic epipen",
+            "epinephrine injection"
+          ],
+          "generic_available": true,
+          "device": "auto-injector",
+          "frequency": "1 injection IM lateral thigh, repeat in 5-15 min if needed; dispense 2-pack",
+          "strengths": {
+            "0.3 mg": "0.3 mg",
+            "0.15 mg": "0.15 mg"
+          },
+          "note": "AB-rated generic; same technique as EpiPen"
+        },
+        {
+          "generic": "epinephrine auto-injector",
+          "brands": [
+            "Auvi-Q"
+          ],
+          "aliases": [
+            "auvi-q",
+            "auvi q",
+            "auviq"
+          ],
+          "generic_available": false,
+          "device": "voice-guided auto-injector",
+          "frequency": "1 injection IM lateral thigh, repeat in 5-15 min if needed; dispense 2-pack",
+          "strengths": {
+            "0.3 mg": "0.3 mg",
+            "0.15 mg": "0.15 mg",
+            "0.1 mg": "0.1 mg"
+          },
+          "note": "only device with 0.1 mg for infants 7.5-15 kg; manufacturer direct-ship/copay program often bypasses PBM"
+        },
+        {
+          "generic": "epinephrine auto-injector",
+          "brands": [
+            "Amneal epinephrine auto-injector (Adrenaclick authorized generic)"
+          ],
+          "aliases": [
+            "adrenaclick",
+            "amneal epinephrine",
+            "impax epinephrine"
+          ],
+          "generic_available": true,
+          "device": "auto-injector (two-cap design)",
+          "frequency": "1 injection IM lateral thigh, repeat in 5-15 min if needed; dispense 2-pack",
+          "strengths": {
+            "0.3 mg": "0.3 mg",
+            "0.15 mg": "0.15 mg"
+          },
+          "note": "different technique from EpiPen (remove two caps) - re-train patient if switched"
+        },
+        {
+          "generic": "epinephrine nasal spray",
+          "brands": [
+            "neffy"
+          ],
+          "aliases": [
+            "neffy",
+            "epinephrine nasal"
+          ],
+          "generic_available": false,
+          "device": "single-dose nasal spray",
+          "frequency": "1 spray in one nostril, repeat in 5 min in same nostril if needed; dispense 2-pack",
+          "strengths": {
+            "2 mg": "0.3 mg",
+            "1 mg": "0.15 mg"
+          },
+          "note": "2 mg for >=30 kg, 1 mg for 15 to <30 kg; needle-free; PA common"
+        }
+      ],
+      "tier_keywords": {
+        "jr": "0.15 mg",
+        "junior": "0.15 mg",
+        "infant": "0.1 mg"
+      }
+    },
+    "oral-steroid": {
+      "name": "Systemic (oral) corticosteroid",
+      "indication": "asthma/allergic flare, urticaria, contact dermatitis",
+      "related": [],
+      "equivalence": "glucocorticoid",
+      "agents": [
+        {
+          "generic": "prednisone",
+          "brands": [
+            "Deltasone",
+            "Rayos"
+          ],
+          "aliases": [
+            "prednisone",
+            "deltasone",
+            "rayos"
+          ],
+          "generic_available": true,
+          "device": "oral tablet / solution",
+          "frequency": "tablets 1, 2.5, 5, 10, 20, 50 mg; solution 5 mg/5 mL; Intensol 5 mg/mL",
+          "equiv_mg": 5,
+          "note": "requires hepatic activation to prednisolone"
+        },
+        {
+          "generic": "prednisolone",
+          "brands": [
+            "Orapred ODT",
+            "Millipred",
+            "Pediapred",
+            "Veripred"
+          ],
+          "aliases": [
+            "prednisolone",
+            "orapred",
+            "millipred",
+            "pediapred",
+            "veripred"
+          ],
+          "generic_available": true,
+          "device": "oral solution / ODT / tablet",
+          "frequency": "solution 15 mg/5 mL (generic Orapred), 5 mg/5 mL (Pediapred), 10 or 20 mg/5 mL (Millipred/Veripred); ODT 10, 15, 30 mg; tablets 5 mg",
+          "equiv_mg": 5,
+          "note": "pediatric standard; 15 mg/5 mL generic is the usual covered form"
+        },
+        {
+          "generic": "methylprednisolone",
+          "brands": [
+            "Medrol",
+            "Medrol Dosepak"
+          ],
+          "aliases": [
+            "methylprednisolone",
+            "medrol",
+            "dosepak",
+            "dose pack"
+          ],
+          "generic_available": true,
+          "device": "oral tablet",
+          "frequency": "tablets 4 (Dosepak), 8, 16, 32 mg",
+          "equiv_mg": 4,
+          "note": "4 mg = prednisone 5 mg; less mineralocorticoid effect"
+        },
+        {
+          "generic": "dexamethasone",
+          "brands": [
+            "Decadron",
+            "DexPak",
+            "Hemady"
+          ],
+          "aliases": [
+            "dexamethasone",
+            "decadron",
+            "dexpak"
+          ],
+          "generic_available": true,
+          "device": "oral tablet / solution",
+          "frequency": "tablets 0.5, 0.75, 1, 1.5, 2, 4, 6 mg; solution 0.5 mg/5 mL; Intensol 1 mg/mL",
+          "equiv_mg": 0.75,
+          "note": "long-acting (36-72 h); 0.6 mg/kg single or 2-day dosing for asthma flares; 0.75 mg = prednisone 5 mg"
+        },
+        {
+          "generic": "hydrocortisone oral",
+          "brands": [
+            "Cortef"
+          ],
+          "aliases": [
+            "cortef",
+            "hydrocortisone oral",
+            "hydrocortisone tablet"
+          ],
+          "generic_available": true,
+          "device": "oral tablet",
+          "frequency": "tablets 5, 10, 20 mg",
+          "equiv_mg": 20,
+          "note": "short-acting; mostly adrenal replacement, rarely for allergic flares"
+        }
+      ]
+    },
+    "topical-steroid": {
+      "name": "Topical corticosteroid",
+      "indication": "atopic/contact dermatitis",
+      "related": [
+        "topical-nonsteroid"
+      ],
+      "tiers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "tier_label": "potency class (1 = superpotent, 7 = least potent)",
+      "agents": [
+        {
+          "generic": "clobetasol propionate 0.05%",
+          "brands": [
+            "Temovate",
+            "Clobex",
+            "Olux"
+          ],
+          "aliases": [
+            "clobetasol",
+            "temovate",
+            "clobex",
+            "olux"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/gel/solution/foam/shampoo/lotion",
+          "frequency": "BID, max 2 weeks continuous, max 50 g/week (>=12 yo)",
+          "strengths": {
+            "0.05%": "1"
+          },
+          "note": "class 1 superpotent; not for face, groin, axillae"
+        },
+        {
+          "generic": "halobetasol propionate 0.05%",
+          "brands": [
+            "Ultravate"
+          ],
+          "aliases": [
+            "halobetasol",
+            "ultravate"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/lotion",
+          "frequency": "once or twice daily, max 2 weeks",
+          "strengths": {
+            "0.05%": "1"
+          },
+          "note": "class 1 superpotent"
+        },
+        {
+          "generic": "betamethasone dipropionate augmented 0.05%",
+          "brands": [
+            "Diprolene"
+          ],
+          "aliases": [
+            "diprolene",
+            "augmented betamethasone",
+            "betamethasone dipropionate augmented"
+          ],
+          "generic_available": true,
+          "device": "ointment/gel (class 1); cream/lotion (class 2)",
+          "frequency": "once or twice daily, max 2 weeks",
+          "strengths": {
+            "0.05% ointment": "1",
+            "0.05% gel": "1",
+            "0.05% cream": "2",
+            "0.05% lotion": "2"
+          },
+          "note": "augmented vehicle raises potency to class 1 (ointment/gel)"
+        },
+        {
+          "generic": "fluocinonide",
+          "brands": [
+            "Lidex (0.05%)",
+            "Vanos (0.1%)"
+          ],
+          "aliases": [
+            "fluocinonide",
+            "lidex",
+            "vanos"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/gel/solution",
+          "frequency": "BID-QID",
+          "strengths": {
+            "0.05%": "2",
+            "0.1%": "1"
+          },
+          "note": "class 2 high potency (0.1% Vanos is class 1)"
+        },
+        {
+          "generic": "desoximetasone",
+          "brands": [
+            "Topicort"
+          ],
+          "aliases": [
+            "desoximetasone",
+            "topicort"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/gel/spray",
+          "frequency": "BID",
+          "strengths": {
+            "0.25%": "2",
+            "0.05% gel": "2",
+            "0.05% cream": "3"
+          },
+          "note": "class 2 high potency (0.05% cream is class 3)"
+        },
+        {
+          "generic": "halcinonide 0.1%",
+          "brands": [
+            "Halog"
+          ],
+          "aliases": [
+            "halcinonide",
+            "halog"
+          ],
+          "generic_available": false,
+          "device": "cream/ointment/solution",
+          "frequency": "BID-TID",
+          "strengths": {
+            "0.1%": "2"
+          },
+          "note": "class 2 high potency"
+        },
+        {
+          "generic": "mometasone furoate 0.1%",
+          "brands": [
+            "Elocon"
+          ],
+          "aliases": [
+            "mometasone topical",
+            "elocon",
+            "mometasone cream",
+            "mometasone ointment",
+            "mometasone furoate cream",
+            "mometasone furoate ointment"
+          ],
+          "generic_available": true,
+          "device": "ointment (class 2) / cream, lotion (class 4)",
+          "frequency": "once daily (>=2 yo)",
+          "strengths": {
+            "0.1% ointment": "2",
+            "0.1% cream": "4",
+            "0.1% lotion": "4"
+          },
+          "note": "once-daily; ointment is class 2, cream/lotion class 4"
+        },
+        {
+          "generic": "betamethasone dipropionate 0.05% (non-augmented)",
+          "brands": [
+            "Diprosone"
+          ],
+          "aliases": [
+            "betamethasone dipropionate",
+            "diprosone"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/lotion",
+          "frequency": "once or twice daily",
+          "strengths": {
+            "0.05% ointment": "2",
+            "0.05% cream": "3",
+            "0.05% lotion": "5"
+          },
+          "note": "class 2-3 depending on vehicle"
+        },
+        {
+          "generic": "triamcinolone acetonide 0.5%",
+          "brands": [
+            "Kenalog 0.5%"
+          ],
+          "aliases": [
+            "triamcinolone 0.5"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment",
+          "frequency": "BID-TID",
+          "strengths": {
+            "0.5%": "3"
+          },
+          "note": "class 3 upper-mid potency"
+        },
+        {
+          "generic": "betamethasone valerate 0.1%",
+          "brands": [
+            "Valisone",
+            "Luxiq (foam 0.12%)"
+          ],
+          "aliases": [
+            "betamethasone valerate",
+            "valisone",
+            "luxiq"
+          ],
+          "generic_available": true,
+          "device": "ointment (class 3) / cream, lotion (class 5); foam",
+          "frequency": "once to three times daily",
+          "strengths": {
+            "0.1% ointment": "3",
+            "0.1% cream": "5",
+            "0.1% lotion": "5",
+            "0.12% foam": "3"
+          },
+          "note": "class 3 ointment, class 5 cream/lotion"
+        },
+        {
+          "generic": "fluticasone propionate topical",
+          "brands": [
+            "Cutivate"
+          ],
+          "aliases": [
+            "fluticasone topical",
+            "cutivate",
+            "fluticasone cream",
+            "fluticasone ointment",
+            "fluticasone lotion"
+          ],
+          "generic_available": true,
+          "device": "ointment 0.005% (class 3) / cream, lotion 0.05% (class 5)",
+          "frequency": "once or twice daily (cream >=3 mo)",
+          "strengths": {
+            "0.005% ointment": "3",
+            "0.05% cream": "5",
+            "0.05% lotion": "5"
+          },
+          "note": "cream approved down to 3 months"
+        },
+        {
+          "generic": "triamcinolone acetonide 0.1%",
+          "brands": [
+            "Kenalog 0.1%",
+            "Aristocort"
+          ],
+          "aliases": [
+            "triamcinolone topical",
+            "triamcinolone 0.1",
+            "triamcinolone cream",
+            "triamcinolone ointment",
+            "kenalog",
+            "aristocort"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment (class 4) / lotion (class 5)",
+          "frequency": "BID-TID",
+          "strengths": {
+            "0.1% cream": "4",
+            "0.1% ointment": "4",
+            "0.1% lotion": "5",
+            "0.025%": "6"
+          },
+          "note": "class 4 workhorse; inexpensive and nearly always covered"
+        },
+        {
+          "generic": "fluocinolone acetonide",
+          "brands": [
+            "Synalar",
+            "Derma-Smoothe/FS",
+            "Capex"
+          ],
+          "aliases": [
+            "fluocinolone",
+            "synalar",
+            "derma-smoothe",
+            "derma smoothe",
+            "capex"
+          ],
+          "generic_available": true,
+          "device": "0.025% ointment (class 4) / 0.025% cream (class 5) / 0.01% cream, solution, oil, shampoo (class 6)",
+          "frequency": "BID-QID; oil once daily (>=3 mo for Derma-Smoothe)",
+          "strengths": {
+            "0.025% ointment": "4",
+            "0.025% cream": "5",
+            "0.01%": "6",
+            "0.01% oil": "6"
+          },
+          "note": "0.01% body oil (Derma-Smoothe) is pediatric-friendly class 6"
+        },
+        {
+          "generic": "hydrocortisone valerate 0.2%",
+          "brands": [
+            "Westcort"
+          ],
+          "aliases": [
+            "hydrocortisone valerate",
+            "westcort"
+          ],
+          "generic_available": true,
+          "device": "ointment (class 4) / cream (class 5)",
+          "frequency": "BID-TID",
+          "strengths": {
+            "0.2% ointment": "4",
+            "0.2% cream": "5"
+          },
+          "note": "class 4-5"
+        },
+        {
+          "generic": "hydrocortisone butyrate 0.1%",
+          "brands": [
+            "Locoid",
+            "Locoid Lipocream"
+          ],
+          "aliases": [
+            "hydrocortisone butyrate",
+            "locoid"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment/lotion/solution",
+          "frequency": "BID-TID (>=3 mo)",
+          "strengths": {
+            "0.1%": "5"
+          },
+          "note": "class 5; approved down to 3 months"
+        },
+        {
+          "generic": "prednicarbate 0.1%",
+          "brands": [
+            "Dermatop"
+          ],
+          "aliases": [
+            "prednicarbate",
+            "dermatop"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment",
+          "frequency": "BID (>=1 yo)",
+          "strengths": {
+            "0.1%": "5"
+          },
+          "note": "class 5"
+        },
+        {
+          "generic": "desonide 0.05%",
+          "brands": [
+            "DesOwen",
+            "Desonate",
+            "Verdeso"
+          ],
+          "aliases": [
+            "desonide",
+            "desowen",
+            "desonate",
+            "verdeso"
+          ],
+          "generic_available": true,
+          "device": "cream/lotion/gel/foam (class 6) / ointment (class 5)",
+          "frequency": "BID-TID (>=3 mo)",
+          "strengths": {
+            "0.05% cream": "6",
+            "0.05% lotion": "6",
+            "0.05% gel": "6",
+            "0.05% foam": "6",
+            "0.05% ointment": "5"
+          },
+          "note": "class 6 pediatric/face workhorse"
+        },
+        {
+          "generic": "alclometasone dipropionate 0.05%",
+          "brands": [
+            "Aclovate"
+          ],
+          "aliases": [
+            "alclometasone",
+            "aclovate"
+          ],
+          "generic_available": true,
+          "device": "cream/ointment",
+          "frequency": "BID-TID (>=1 yo)",
+          "strengths": {
+            "0.05%": "6"
+          },
+          "note": "class 6"
+        },
+        {
+          "generic": "hydrocortisone 1-2.5%",
+          "brands": [
+            "Hytone",
+            "Cortaid (OTC 1%)"
+          ],
+          "aliases": [
+            "hydrocortisone cream",
+            "hydrocortisone ointment",
+            "hydrocortisone 2.5",
+            "hydrocortisone 1%",
+            "hytone",
+            "cortaid",
+            "hydrocortisone topical"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "cream/ointment/lotion",
+          "frequency": "BID-QID",
+          "strengths": {
+            "2.5%": "7",
+            "1%": "7",
+            "0.5%": "7"
+          },
+          "note": "class 7 least potent; 1% OTC, 2.5% Rx"
+        }
+      ]
+    },
+    "topical-nonsteroid": {
+      "name": "Nonsteroidal topical anti-inflammatory for atopic dermatitis",
+      "indication": "atopic dermatitis (face, folds, steroid-sparing maintenance)",
+      "related": [
+        "topical-steroid",
+        "ad-systemic"
+      ],
+      "agents": [
+        {
+          "generic": "tacrolimus ointment",
+          "brands": [
+            "Protopic"
+          ],
+          "aliases": [
+            "tacrolimus",
+            "protopic"
+          ],
+          "generic_available": true,
+          "device": "ointment",
+          "frequency": "0.03% BID (2-15 yo); 0.03% or 0.1% BID (>=16 yo)",
+          "note": "calcineurin inhibitor; burning first week"
+        },
+        {
+          "generic": "pimecrolimus 1% cream",
+          "brands": [
+            "Elidel"
+          ],
+          "aliases": [
+            "pimecrolimus",
+            "elidel"
+          ],
+          "generic_available": true,
+          "device": "cream",
+          "frequency": "BID (>=2 yo), mild-moderate AD",
+          "note": "calcineurin inhibitor"
+        },
+        {
+          "generic": "crisaborole 2% ointment",
+          "brands": [
+            "Eucrisa"
+          ],
+          "aliases": [
+            "crisaborole",
+            "eucrisa"
+          ],
+          "generic_available": false,
+          "device": "ointment",
+          "frequency": "BID (>=3 mo), mild-moderate AD",
+          "note": "PDE4 inhibitor; stinging common; PA frequent"
+        },
+        {
+          "generic": "roflumilast 0.15% cream",
+          "brands": [
+            "Zoryve"
+          ],
+          "aliases": [
+            "zoryve",
+            "roflumilast cream",
+            "roflumilast topical"
+          ],
+          "generic_available": false,
+          "device": "cream",
+          "frequency": "once daily (>=6 yo), mild-moderate AD; 0.3% cream/foam for psoriasis/seb derm",
+          "note": "PDE4 inhibitor; PA frequent"
+        },
+        {
+          "generic": "ruxolitinib 1.5% cream",
+          "brands": [
+            "Opzelura"
+          ],
+          "aliases": [
+            "opzelura",
+            "ruxolitinib"
+          ],
+          "generic_available": false,
+          "device": "cream",
+          "frequency": "BID (>=2 yo), mild-moderate AD, <=20% BSA, max 60 g/week; also nonsegmental vitiligo",
+          "note": "topical JAK inhibitor; boxed warning; PA essentially always"
+        },
+        {
+          "generic": "tapinarof 1% cream",
+          "brands": [
+            "Vtama"
+          ],
+          "aliases": [
+            "vtama",
+            "tapinarof"
+          ],
+          "generic_available": false,
+          "device": "cream",
+          "frequency": "once daily (>=2 yo for AD; >=18 yo psoriasis)",
+          "note": "aryl hydrocarbon receptor agonist; no BSA cap; PA frequent"
+        },
+        {
+          "generic": "delgocitinib 20 mg/g cream",
+          "brands": [
+            "Anzupgo"
+          ],
+          "aliases": [
+            "anzupgo",
+            "delgocitinib"
+          ],
+          "generic_available": false,
+          "device": "cream",
+          "frequency": "BID (>=18 yo), moderate-severe chronic hand eczema",
+          "note": "topical pan-JAK for chronic hand eczema only; PA"
+        }
+      ]
+    },
+    "ad-systemic": {
+      "name": "Systemic therapy for moderate-severe atopic dermatitis (biologic / oral JAK)",
+      "indication": "moderate-severe atopic dermatitis uncontrolled on topicals",
+      "specialty": true,
+      "related": [
+        "topical-nonsteroid",
+        "asthma-biologic"
+      ],
+      "agents": [
+        {
+          "generic": "dupilumab",
+          "brands": [
+            "Dupixent"
+          ],
+          "aliases": [
+            "dupixent",
+            "dupilumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen/syringe",
+          "frequency": "AD >=6 mo: weight-based 200-300 mg q2-4 wk after load; also asthma, CRSwNP, EoE, prurigo nodularis, COPD, CSU, bullous pemphigoid",
+          "note": "IL-4R-alpha; broadest indication list; no lab monitoring"
+        },
+        {
+          "generic": "tralokinumab",
+          "brands": [
+            "Adbry"
+          ],
+          "aliases": [
+            "adbry",
+            "tralokinumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled syringe/autoinjector",
+          "frequency": "300 mg q2 wk after 600 mg load (>=12 yo); q4 wk option <100 kg once clear",
+          "note": "IL-13; AD only"
+        },
+        {
+          "generic": "lebrikizumab",
+          "brands": [
+            "Ebglyss"
+          ],
+          "aliases": [
+            "ebglyss",
+            "lebrikizumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen/syringe",
+          "frequency": "250 mg q2 wk x16 wk then q4 wk (>=12 yo, >=40 kg)",
+          "note": "IL-13; AD only; monthly maintenance"
+        },
+        {
+          "generic": "nemolizumab",
+          "brands": [
+            "Nemluvio"
+          ],
+          "aliases": [
+            "nemluvio",
+            "nemolizumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen",
+          "frequency": "30 mg q4 wk after 60 mg load (>=12 yo); also prurigo nodularis",
+          "note": "IL-31R-alpha; strongest for itch; used with topicals"
+        },
+        {
+          "generic": "upadacitinib",
+          "brands": [
+            "Rinvoq"
+          ],
+          "aliases": [
+            "rinvoq",
+            "upadacitinib"
+          ],
+          "generic_available": false,
+          "device": "oral ER tablet",
+          "frequency": "15 mg daily (>=12 yo, >=40 kg), may increase to 30 mg (adults <65)",
+          "note": "oral JAK1; boxed warning; labs required; formularies often require biologic failure first"
+        },
+        {
+          "generic": "abrocitinib",
+          "brands": [
+            "Cibinqo"
+          ],
+          "aliases": [
+            "cibinqo",
+            "abrocitinib"
+          ],
+          "generic_available": false,
+          "device": "oral tablet",
+          "frequency": "100 mg daily (>=12 yo), may increase to 200 mg",
+          "note": "oral JAK1; boxed warning; labs required"
+        }
+      ]
+    },
+    "asthma-biologic": {
+      "name": "Biologic for severe asthma / CRSwNP / CSU",
+      "indication": "severe asthma (allergic or eosinophilic), nasal polyps, chronic urticaria, EoE, food allergy",
+      "specialty": true,
+      "related": [
+        "ad-systemic",
+        "ics-laba"
+      ],
+      "agents": [
+        {
+          "generic": "omalizumab",
+          "brands": [
+            "Xolair"
+          ],
+          "aliases": [
+            "xolair",
+            "omalizumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled syringe/autoinjector or office vial",
+          "frequency": "75-375 mg q2-4 wk by IgE and weight (allergic asthma >=6 yo); 150-300 mg q4 wk (CSU >=12 yo); also CRSwNP >=18, IgE-mediated food allergy >=1 yo",
+          "note": "anti-IgE; only biologic for food allergy; needs total IgE 30-700 (asthma) and perennial sensitization"
+        },
+        {
+          "generic": "mepolizumab",
+          "brands": [
+            "Nucala"
+          ],
+          "aliases": [
+            "nucala",
+            "mepolizumab"
+          ],
+          "generic_available": false,
+          "device": "SC autoinjector/syringe or vial",
+          "frequency": "100 mg q4 wk (eos asthma >=6 yo: 40 mg if 6-11); also CRSwNP, EGPA, HES, eosinophilic COPD",
+          "note": "anti-IL-5; eosinophils >=150-300"
+        },
+        {
+          "generic": "benralizumab",
+          "brands": [
+            "Fasenra"
+          ],
+          "aliases": [
+            "fasenra",
+            "benralizumab"
+          ],
+          "generic_available": false,
+          "device": "SC autoinjector/syringe",
+          "frequency": "30 mg q4 wk x3 then q8 wk (eos asthma >=6 yo; 10 mg if 6-11 and <35 kg); also EGPA",
+          "note": "anti-IL-5R; every-8-week maintenance"
+        },
+        {
+          "generic": "reslizumab",
+          "brands": [
+            "Cinqair"
+          ],
+          "aliases": [
+            "cinqair",
+            "reslizumab"
+          ],
+          "generic_available": false,
+          "device": "IV infusion",
+          "frequency": "3 mg/kg IV q4 wk (eos asthma >=18 yo)",
+          "note": "anti-IL-5; IV only; medical benefit, not pharmacy"
+        },
+        {
+          "generic": "dupilumab",
+          "brands": [
+            "Dupixent"
+          ],
+          "aliases": [
+            "dupixent",
+            "dupilumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen/syringe",
+          "frequency": "asthma >=6 yo: 200-300 mg q2 wk (eos or OCS-dependent); CRSwNP 300 mg q2 wk; EoE >=1 yo weight-based; also AD, COPD, CSU, PN",
+          "note": "IL-4R-alpha; good choice when asthma coexists with AD, CRSwNP or EoE"
+        },
+        {
+          "generic": "tezepelumab",
+          "brands": [
+            "Tezspire"
+          ],
+          "aliases": [
+            "tezspire",
+            "tezepelumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen/syringe",
+          "frequency": "210 mg q4 wk (severe asthma >=12 yo, no phenotype requirement); also CRSwNP",
+          "note": "anti-TSLP; only asthma biologic without eosinophil/IgE requirement"
+        },
+        {
+          "generic": "remibrutinib",
+          "brands": [
+            "Rhapsido"
+          ],
+          "aliases": [
+            "rhapsido",
+            "remibrutinib"
+          ],
+          "generic_available": false,
+          "device": "oral tablet",
+          "frequency": "25 mg BID (CSU >=12 yo uncontrolled on H1 antihistamines)",
+          "note": "oral BTK inhibitor for CSU only; not for asthma"
+        }
+      ]
+    },
+    "ppi": {
+      "name": "Proton pump inhibitor",
+      "indication": "eosinophilic esophagitis (first-line trial), GERD",
+      "related": [
+        "eoe-steroid",
+        "h2-blocker"
+      ],
+      "agents": [
+        {
+          "generic": "omeprazole",
+          "brands": [
+            "Prilosec"
+          ],
+          "aliases": [
+            "omeprazole",
+            "prilosec"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral DR capsule/tablet; packets for suspension",
+          "frequency": "20-40 mg daily or BID (EoE: 1 mg/kg/dose BID, max 40 mg BID, x8-12 wk)",
+          "note": "reference PPI"
+        },
+        {
+          "generic": "esomeprazole",
+          "brands": [
+            "Nexium"
+          ],
+          "aliases": [
+            "esomeprazole",
+            "nexium"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral DR capsule; packets for suspension (peds)",
+          "frequency": "20-40 mg daily or BID; peds 10-20 mg daily",
+          "note": "packets useful for young children"
+        },
+        {
+          "generic": "lansoprazole",
+          "brands": [
+            "Prevacid",
+            "Prevacid SoluTab"
+          ],
+          "aliases": [
+            "lansoprazole",
+            "prevacid",
+            "solutab"
+          ],
+          "generic_available": true,
+          "otc": true,
+          "device": "oral DR capsule / ODT (SoluTab)",
+          "frequency": "15-30 mg daily or BID; peds 15 mg (<30 kg) or 30 mg (>=30 kg)",
+          "note": "ODT dissolves for kids"
+        },
+        {
+          "generic": "pantoprazole",
+          "brands": [
+            "Protonix"
+          ],
+          "aliases": [
+            "pantoprazole",
+            "protonix"
+          ],
+          "generic_available": true,
+          "device": "oral DR tablet; granules",
+          "frequency": "20-40 mg daily or BID (>=5 yo)",
+          "note": "fewest drug interactions; often the PBM-preferred PPI"
+        },
+        {
+          "generic": "rabeprazole",
+          "brands": [
+            "AcipHex",
+            "AcipHex Sprinkle"
+          ],
+          "aliases": [
+            "rabeprazole",
+            "aciphex"
+          ],
+          "generic_available": true,
+          "device": "oral DR tablet; sprinkle capsule (1-11 yo)",
+          "frequency": "20 mg daily (>=12 yo); 5-10 mg daily sprinkle (1-11 yo)",
+          "note": ""
+        },
+        {
+          "generic": "dexlansoprazole",
+          "brands": [
+            "Dexilant"
+          ],
+          "aliases": [
+            "dexlansoprazole",
+            "dexilant"
+          ],
+          "generic_available": true,
+          "device": "oral dual-release capsule",
+          "frequency": "30-60 mg daily (>=12 yo)",
+          "note": "dual release; usually non-preferred"
+        }
+      ]
+    },
+    "eoe-steroid": {
+      "name": "Swallowed topical corticosteroid for eosinophilic esophagitis",
+      "indication": "eosinophilic esophagitis",
+      "related": [
+        "ppi",
+        "asthma-biologic"
+      ],
+      "agents": [
+        {
+          "generic": "budesonide oral suspension",
+          "brands": [
+            "Eohilia"
+          ],
+          "aliases": [
+            "eohilia",
+            "budesonide oral suspension"
+          ],
+          "generic_available": false,
+          "device": "oral suspension stick pack",
+          "frequency": "2 mg (10 mL) BID x12 wk (>=11 yo)",
+          "note": "only FDA-approved swallowed steroid for EoE; PA common"
+        },
+        {
+          "generic": "budesonide slurry (compounded)",
+          "brands": [
+            "compounded budesonide respules + sucralose/honey"
+          ],
+          "aliases": [
+            "budesonide slurry",
+            "slurry",
+            "oral viscous budesonide"
+          ],
+          "generic_available": true,
+          "device": "nebulizer respules mixed into slurry",
+          "frequency": "0.5-1 mg BID (<10 yo) or 1-2 mg BID (>=10 yo), swallowed; nothing by mouth 30 min after",
+          "note": "off-label; uses covered Pulmicort Respules; often the cheapest fallback"
+        },
+        {
+          "generic": "fluticasone propionate swallowed from MDI",
+          "brands": [
+            "Flovent HFA / generic fluticasone HFA"
+          ],
+          "aliases": [
+            "swallowed fluticasone",
+            "fluticasone swallowed"
+          ],
+          "generic_available": true,
+          "device": "MDI sprayed into mouth and swallowed, no spacer",
+          "frequency": "440-880 mcg BID (adult) or 88-440 mcg BID (child), swallowed",
+          "note": "off-label; covered as an asthma inhaler; rinse not needed - do not inhale"
+        },
+        {
+          "generic": "dupilumab",
+          "brands": [
+            "Dupixent"
+          ],
+          "aliases": [
+            "dupixent eoe"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled pen/syringe",
+          "frequency": "EoE >=1 yo and >=15 kg: weight-based (300 mg weekly if >=40 kg)",
+          "note": "only biologic approved for EoE; specialty PA"
+        }
+      ]
+    },
+    "hae-prophylaxis": {
+      "name": "Hereditary angioedema long-term prophylaxis",
+      "indication": "HAE prophylaxis",
+      "specialty": true,
+      "related": [
+        "hae-on-demand"
+      ],
+      "agents": [
+        {
+          "generic": "lanadelumab",
+          "brands": [
+            "Takhzyro"
+          ],
+          "aliases": [
+            "takhzyro",
+            "lanadelumab"
+          ],
+          "generic_available": false,
+          "device": "SC prefilled syringe/pen",
+          "frequency": "300 mg q2 wk (>=12 yo), may extend to q4 wk if attack-free 6 mo; 150 mg q4 wk (2-5 yo) / q2 wk (6-11 yo)",
+          "note": "anti-plasma kallikrein mAb; approved >=2 yo"
+        },
+        {
+          "generic": "C1 esterase inhibitor (human) SC",
+          "brands": [
+            "Haegarda"
+          ],
+          "aliases": [
+            "haegarda",
+            "c1 inhibitor sc",
+            "c1 esterase sc"
+          ],
+          "generic_available": false,
+          "device": "SC infusion (reconstituted)",
+          "frequency": "60 IU/kg twice weekly (>=6 yo)",
+          "note": "plasma-derived C1-INH; twice weekly SC"
+        },
+        {
+          "generic": "C1 esterase inhibitor (human) IV",
+          "brands": [
+            "Cinryze"
+          ],
+          "aliases": [
+            "cinryze"
+          ],
+          "generic_available": false,
+          "device": "IV infusion",
+          "frequency": "1000 IU IV q3-4 days (>=6 yo); up to 2500 IU",
+          "note": "IV prophylaxis; often medical benefit"
+        },
+        {
+          "generic": "berotralstat",
+          "brands": [
+            "Orladeyo"
+          ],
+          "aliases": [
+            "orladeyo",
+            "berotralstat"
+          ],
+          "generic_available": false,
+          "device": "oral capsule",
+          "frequency": "150 mg once daily with food (>=12 yo); 110 mg if moderate hepatic impairment or P-gp inhibitors",
+          "note": "oral plasma kallikrein inhibitor; only oral daily prophylaxis"
+        },
+        {
+          "generic": "garadacimab",
+          "brands": [
+            "Andembry"
+          ],
+          "aliases": [
+            "andembry",
+            "garadacimab"
+          ],
+          "generic_available": false,
+          "device": "SC autoinjector",
+          "frequency": "400 mg load then 200 mg once monthly (>=12 yo)",
+          "note": "anti-factor XIIa mAb; once-monthly dosing"
+        },
+        {
+          "generic": "donidalorsen",
+          "brands": [
+            "Dawnzera"
+          ],
+          "aliases": [
+            "dawnzera",
+            "donidalorsen"
+          ],
+          "generic_available": false,
+          "device": "SC autoinjector",
+          "frequency": "80 mg q4 wk (>=12 yo), may extend to q8 wk",
+          "note": "prekallikrein antisense oligonucleotide"
+        },
+        {
+          "generic": "danazol",
+          "brands": [
+            "Danocrine"
+          ],
+          "aliases": [
+            "danazol",
+            "danocrine"
+          ],
+          "generic_available": true,
+          "device": "oral capsule",
+          "frequency": "lowest effective dose, typically 100-200 mg daily or less (adults only)",
+          "note": "attenuated androgen; legacy option with significant adverse effects; not for children/pregnancy"
+        }
+      ]
+    },
+    "hae-on-demand": {
+      "name": "Hereditary angioedema on-demand (acute attack) treatment",
+      "indication": "HAE acute attacks",
+      "specialty": true,
+      "related": [
+        "hae-prophylaxis"
+      ],
+      "agents": [
+        {
+          "generic": "icatibant",
+          "brands": [
+            "Firazyr",
+            "Sajazir",
+            "generic"
+          ],
+          "aliases": [
+            "icatibant",
+            "firazyr",
+            "sajazir"
+          ],
+          "generic_available": true,
+          "device": "SC prefilled syringe",
+          "frequency": "30 mg SC abdomen, may repeat q6h, max 3 doses/24 h (>=18 yo; often used off-label younger)",
+          "note": "bradykinin B2 antagonist; generics widely available - usual preferred on-demand agent"
+        },
+        {
+          "generic": "ecallantide",
+          "brands": [
+            "Kalbitor"
+          ],
+          "aliases": [
+            "kalbitor",
+            "ecallantide"
+          ],
+          "generic_available": false,
+          "device": "SC injection by healthcare provider",
+          "frequency": "30 mg (3 x 10 mg) SC, may repeat once in 24 h (>=12 yo)",
+          "note": "plasma kallikrein inhibitor; anaphylaxis risk, HCP administration only"
+        },
+        {
+          "generic": "C1 esterase inhibitor (human) IV",
+          "brands": [
+            "Berinert"
+          ],
+          "aliases": [
+            "berinert"
+          ],
+          "generic_available": false,
+          "device": "IV infusion (self-administered after training)",
+          "frequency": "20 IU/kg IV at attack onset (all ages)",
+          "note": "plasma-derived; approved for pediatric use"
+        },
+        {
+          "generic": "C1 esterase inhibitor (recombinant) IV",
+          "brands": [
+            "Ruconest"
+          ],
+          "aliases": [
+            "ruconest",
+            "recombinant c1"
+          ],
+          "generic_available": false,
+          "device": "IV infusion",
+          "frequency": "50 IU/kg (max 4200 IU) IV, may repeat once in 24 h (>=13 yo)",
+          "note": "recombinant (rabbit); avoid with rabbit allergy"
+        },
+        {
+          "generic": "sebetralstat",
+          "brands": [
+            "Ekterly"
+          ],
+          "aliases": [
+            "ekterly",
+            "sebetralstat"
+          ],
+          "generic_available": false,
+          "device": "oral tablet",
+          "frequency": "600 mg (2 x 300 mg) at attack onset, may repeat once after 3 h (>=12 yo)",
+          "note": "first oral on-demand therapy; not for laryngeal attacks without rescue plan"
+        }
+      ]
+    },
+    "immunoglobulin": {
+      "name": "Immune globulin replacement (IVIG / SCIG)",
+      "indication": "primary immunodeficiency",
+      "specialty": true,
+      "related": [],
+      "agents": [
+        {
+          "generic": "immune globulin 10% IV",
+          "brands": [
+            "Gammagard Liquid",
+            "Gamunex-C",
+            "Privigen",
+            "Octagam 10%",
+            "Panzyga",
+            "Bivigam",
+            "Gammaked",
+            "Flebogamma 10% DIF",
+            "Asceniv",
+            "Yimmugo",
+            "Alyglo"
+          ],
+          "aliases": [
+            "ivig",
+            "gammagard",
+            "gamunex",
+            "privigen",
+            "octagam",
+            "panzyga",
+            "bivigam",
+            "gammaked",
+            "flebogamma",
+            "asceniv",
+            "yimmugo",
+            "alyglo",
+            "immune globulin iv"
+          ],
+          "generic_available": false,
+          "device": "IV infusion (home or infusion center)",
+          "frequency": "300-600 mg/kg q3-4 wk, titrate to trough IgG and infections",
+          "note": "products differ in sugar/sodium/IgA content and osmolality; PBM/payer usually names 1-3 preferred brands"
+        },
+        {
+          "generic": "immune globulin 20% SC",
+          "brands": [
+            "Hizentra",
+            "Cuvitru",
+            "Xembify",
+            "Cutaquig (16.5%)"
+          ],
+          "aliases": [
+            "scig",
+            "hizentra",
+            "cuvitru",
+            "xembify",
+            "cutaquig",
+            "immune globulin sc",
+            "subcutaneous immune globulin"
+          ],
+          "generic_available": false,
+          "device": "SC infusion pump, weekly or biweekly",
+          "frequency": "100-200 mg/kg weekly (1.37 x IV dose / interval); Cuvitru/Xembify allow q2 wk",
+          "note": "Gammagard Liquid and Gamunex-C are also SC-labeled"
+        },
+        {
+          "generic": "immune globulin 10% SC with hyaluronidase",
+          "brands": [
+            "HyQvia"
+          ],
+          "aliases": [
+            "hyqvia"
+          ],
+          "generic_available": false,
+          "device": "SC infusion with recombinant hyaluronidase, q3-4 wk",
+          "frequency": "300-600 mg/kg q3-4 wk SC (>=2 yo)",
+          "note": "monthly SC option; single site"
+        }
+      ]
+    },
+    "slit-tablet": {
+      "name": "Sublingual allergen immunotherapy tablet / oral immunotherapy product",
+      "indication": "allergic rhinitis immunotherapy; peanut OIT",
+      "specialty": true,
+      "related": [],
+      "agents": [
+        {
+          "generic": "Timothy grass pollen extract SLIT",
+          "brands": [
+            "Grastek"
+          ],
+          "aliases": [
+            "grastek",
+            "timothy grass tablet"
+          ],
+          "generic_available": false,
+          "device": "sublingual tablet",
+          "frequency": "2800 BAU daily, start 12 wk before grass season (5-65 yo)",
+          "note": "first dose in office; dispense epinephrine; Oralair is the only in-class alternative"
+        },
+        {
+          "generic": "5-grass pollen extract SLIT",
+          "brands": [
+            "Oralair"
+          ],
+          "aliases": [
+            "oralair",
+            "5 grass tablet",
+            "five grass"
+          ],
+          "generic_available": false,
+          "device": "sublingual tablet",
+          "frequency": "100 IR x3 days then 300 IR daily, start 4 mo before season (5-65 yo)",
+          "note": "first dose in office; dispense epinephrine; Grastek is the only in-class alternative"
+        },
+        {
+          "generic": "short ragweed pollen extract SLIT",
+          "brands": [
+            "Ragwitek"
+          ],
+          "aliases": [
+            "ragwitek",
+            "ragweed tablet"
+          ],
+          "generic_available": false,
+          "device": "sublingual tablet",
+          "frequency": "12 Amb a 1-U daily, start 12 wk before ragweed season (5-65 yo)",
+          "note": "no in-class alternative; fallback is subcutaneous immunotherapy"
+        },
+        {
+          "generic": "house dust mite extract SLIT",
+          "brands": [
+            "Odactra"
+          ],
+          "aliases": [
+            "odactra",
+            "dust mite tablet"
+          ],
+          "generic_available": false,
+          "device": "sublingual tablet",
+          "frequency": "12 SQ-HDM daily year-round (5-65 yo)",
+          "note": "no in-class alternative; fallback is subcutaneous immunotherapy"
+        },
+        {
+          "generic": "peanut allergen powder OIT",
+          "brands": [
+            "Palforzia"
+          ],
+          "aliases": [
+            "palforzia",
+            "peanut allergen powder"
+          ],
+          "generic_available": false,
+          "device": "oral powder capsules/sachet",
+          "frequency": "escalation in office to 300 mg daily maintenance (1-17 yo at start)",
+          "note": "REMS program; alternative is clinic-based peanut OIT with food-grade product or omalizumab (Xolair) for food allergy"
+        }
+      ]
+    }
+  }
+}
